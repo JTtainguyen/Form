@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  padding: 0 200px;
+  background-color: black;
+}
+
+#banner {
+  position: relative;
+  flex: 1;
+}
+
+#form {
+  flex: 2;
+  background-color: #f9fafb;
+}
+
+.text {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text img {
+  width: 25%;
+}
+
+.text p {
+  color: white;
+  font-family: 'Norse', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+span {
+  font-style: italic;
+}
+
+.image {
+  width: 100%;
+  height: 100vh;
+}
+
+#header {
+  padding: 100px 150px 30px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#main-form {
+  display: block;
+  margin-top: 50px;
+  background-color: white;
+  padding: 30px 150px 30px 50px;
+  margin: auto;
+  box-shadow: 0px 15px 0px -15px #111;
+}
+
+#main-form__header {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#submit-form {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9fafb;
+}
+
+form {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+
+}
+
+.first-name, .last-name, .email, .phone-num, .password, .cf-pass {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 41%;
+  margin-right: 20px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.input {
+  /* outline: none; */
+  background-color: #f9fafb;
+  padding: 5px;
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+}
+
+#submit-form {
+  margin: 40px 0 0 40px;
+}
+
+#submit-form button {
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #596D48;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#submit-form p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#submit-form a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: bold;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.input:invalid {
+  border: 1px solid red;
+}
